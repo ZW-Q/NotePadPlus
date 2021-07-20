@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:title="NotePad">
+            <menu>
+                <item
+                    android:id="@+id/notepad"
+                    android:title="NotePadPlus">
+                </item>
+            </menu>
+        </item>
+    </group>
+    <group>
+        <item android:title="标签">
+            <menu>
+                <item
+                    android:id="@+id/travel"
+                    android:title="旅游">
+                </item>
+                <item
+                    android:id="@+id/work"
+                    android:title="工作">
+                </item>
+                <item
+                    android:id="@+id/study"
+                    android:title="学习">
+                </item>
+                <item
+                    android:id="@+id/life"
+                    android:title="日常">
+                </item>
+                <item
+                    android:id="@+id/def"
+                    android:title="默认">
+                </item>
+            </menu>
+        </item>
+    </group>
+</menu>
